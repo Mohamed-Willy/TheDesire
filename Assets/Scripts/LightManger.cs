@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 [System.Serializable]
@@ -24,7 +23,7 @@ public struct Item
 public class LightManger : MonoBehaviour
 {
     GameObject m_GameObject;
-    [SerializeField] Vector3Bool RGB;
+    Vector3Bool RGB;
     [SerializeField] List<Item> items;
     private void Start()
     {
@@ -37,10 +36,6 @@ public class LightManger : MonoBehaviour
         this.RGB.R = RGB.R ? !this.RGB.R : this.RGB.R;
         this.RGB.G = RGB.G ? !this.RGB.G : this.RGB.G;
         this.RGB.B = RGB.B ? !this.RGB.B : this.RGB.B;
-        ChangeColor();
-    }
-    private void Update()
-    {
         ChangeColor();
     }
     private void ChangeColor()

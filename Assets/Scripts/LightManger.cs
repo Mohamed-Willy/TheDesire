@@ -23,9 +23,15 @@ public struct Item
 }
 public class LightManger : MonoBehaviour
 {
-    [SerializeField] GameObject LightParent;
+    GameObject m_GameObject;
     [SerializeField] Vector3Bool RGB;
     [SerializeField] List<Item> items;
+    private void Start()
+    {
+        RGB = new(true, true, true);
+        m_GameObject = gameObject;
+        ChangeColor();
+    }
     public void SetColor(Vector3Bool RGB)
     {
         this.RGB.R = RGB.R ? !this.RGB.R : this.RGB.R;
@@ -33,9 +39,13 @@ public class LightManger : MonoBehaviour
         this.RGB.B = RGB.B ? !this.RGB.B : this.RGB.B;
         ChangeColor();
     }
+    private void Update()
+    {
+        ChangeColor();
+    }
     private void ChangeColor()
     {
-        foreach (var light in LightParent.GetComponentsInChildren<Light>())
+        foreach (var light in m_GameObject.GetComponentsInChildren<Light>())
         {
             light.color = new Color(RGB.R ? 255 : 0, RGB.G ? 255 : 0, RGB.B ? 255 : 0);
         }

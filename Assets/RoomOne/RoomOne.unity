@@ -411,7 +411,7 @@ PrefabInstance:
     - target: {fileID: 4618709434085449544, guid: 830e21589ddbffc43b27104e84400149,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.4
+      value: -15.2
       objectReference: {fileID: 0}
     - target: {fileID: 4618709434085449544, guid: 830e21589ddbffc43b27104e84400149,
         type: 3}
@@ -462,6 +462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gate
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427720935456687602, guid: 830e21589ddbffc43b27104e84400149,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5973721318931639496, guid: 830e21589ddbffc43b27104e84400149,
         type: 3}

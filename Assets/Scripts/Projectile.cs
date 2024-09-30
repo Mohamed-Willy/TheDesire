@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.VFX;
 
 public class Projectile : MonoBehaviour
 {
@@ -9,6 +9,8 @@ public class Projectile : MonoBehaviour
     Transform m_Transform;
     bool isMoving;
     [SerializeField] Material material;
+    [SerializeField] VisualEffect vfx;
+    [SerializeField] float duration = 10;
     private void Start()
     {
         material.SetFloat("_Dissolve_Val", -0.5f);
@@ -27,12 +29,24 @@ public class Projectile : MonoBehaviour
             yield return null;
             m_Transform.Translate(direction * speed);
         }
-        for (int i = 0; i < 100; i++)
+
+        // Play VFX
+        vfx.SetFloat("Duration", duration/2);
+        vfx.Play();
+
+        float dissolveIncrement = 0.01f;
+        float dissolveTimeStep = duration / (1f / dissolveIncrement);
+        float currentDissolveValue = material.GetFloat("_Dissolve_Val");
+
+        for (float t = 0; t < duration; t += dissolveTimeStep)
         {
-            material.SetFloat("_Dissolve_Val", material.GetFloat("_Dissolve_Val") + 0.01f);
-            yield return new WaitForSeconds(0.1f);
+            currentDissolveValue += dissolveIncrement;
+            material.SetFloat("_Dissolve_Val", currentDissolveValue);
+            yield return new WaitForSeconds(dissolveTimeStep);
         }
+
         material.SetFloat("_Dissolve_Val", -0.5f);
+        // yield return new WaitForSeconds(duration);
         gameObject.SetActive(false);
     }
     private void OnTriggerEnter(Collider other)

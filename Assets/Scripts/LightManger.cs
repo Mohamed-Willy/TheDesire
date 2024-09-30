@@ -23,12 +23,16 @@ public struct Item
 public class LightManger : MonoBehaviour
 {
     GameObject m_GameObject;
-    Vector3Bool RGB;
+    [SerializeField] Vector3Bool RGB;
     [SerializeField] List<Item> items;
     private void Start()
     {
         RGB = new(true, true, true);
         m_GameObject = gameObject;
+        ChangeColor();
+    }
+    private void Update()
+    {
         ChangeColor();
     }
     public void SetColor(Vector3Bool RGB)

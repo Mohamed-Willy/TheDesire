@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - NuclearOven
+  - LeftHand
+  - RightHand
+  - Gate
   layers:
   - Default
   - TransparentFX

@@ -31,21 +31,20 @@ public class Projectile : MonoBehaviour
             m_Transform.localScale = Vector3.Lerp(m_Transform.localScale, new(2, 2, 2), 0.005f);
         }
         float dissolveIncrement = 0.01f;
-        float dissolveTimeStep = duration * dissolveIncrement;
-        float currentDissolveValue = 0.5f;
+        float dissolveTimeStep = duration / (1.5f / dissolveIncrement);
+        float currentDissolveValue = -0.5f;
 
-        vfx.SetFloat("Duration", duration / 2.5f);
+        vfx.SetFloat("Duration", duration/1.25f);
         vfx.Play();
         for (float t = 0; t < duration; t += dissolveTimeStep)
         {
-            
             currentDissolveValue += dissolveIncrement;
             material.SetFloat("_Dissolve_Val", currentDissolveValue);
-            if (currentDissolveValue >= 1) break;
+            // if (currentDissolveValue >= 1) break;
             yield return new WaitForSeconds(dissolveTimeStep);
         }
 
-        material.SetFloat("_Dissolve_Val", 0.5f);
+        material.SetFloat("_Dissolve_Val", -0.5f);
         Cannon.canShoot = true;
         manger.TakeEnergy();
         Destroy(gameObject);

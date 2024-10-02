@@ -70,13 +70,13 @@ Material:
     - _CullMode: 0
     - _CullModeForward: 0
     - _DepthOffsetEnable: 0
-    - _Dissolve_Val: 0.5
+    - _Dissolve_Val: -0.5
     - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 1
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 0
     - _Emission_Multiplier: 3.58
-    - _Emissive: 0
+    - _Emissive: 1
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _ExcludeFromTUAndAA: 0
@@ -88,7 +88,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0.5
+    - _Smoothness: 0.495
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8

@@ -29,7 +29,7 @@ public class Dissolve_Demo : MonoBehaviour
         float dissolveTimeStep = duration / (1.5f / dissolveIncrement);
         float currentDissolveValue = material.GetFloat("_Dissolve_Val");
 
-        for (float t = 0; t <= duration; t += dissolveTimeStep)
+        for (float t = 0; t < duration; t += dissolveTimeStep)
         {
             currentDissolveValue += dissolveIncrement;
             material.SetFloat("_Dissolve_Val", currentDissolveValue);

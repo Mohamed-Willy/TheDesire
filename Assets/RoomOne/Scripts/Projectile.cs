@@ -7,15 +7,17 @@ public class Projectile : MonoBehaviour
     [SerializeField] RoomOneManger manger;
     [SerializeField] Vector3 direction;
     [SerializeField] float speed;
-    [SerializeField] Material material;
+    [SerializeField] Material newMaterial;
     [SerializeField] VisualEffect vfx;
     [SerializeField] float duration = 10;
+    Material material;
     Transform m_Transform;
     Rigidbody m_Rigidbody;
     bool isMoving;
     private void Start()
     {
-        material.SetFloat("_Dissolve_Val", 0.5f);
+        material = GetComponent<Renderer>().material;
+        material.SetFloat("_Dissolve_Val", -0.5f);
         m_Transform = transform;
         m_Rigidbody = GetComponent<Rigidbody>();
 
@@ -40,7 +42,7 @@ public class Projectile : MonoBehaviour
         {
             currentDissolveValue += dissolveIncrement;
             material.SetFloat("_Dissolve_Val", currentDissolveValue);
-            // if (currentDissolveValue >= 1) break;
+            if (currentDissolveValue >= 1) break;
             yield return new WaitForSeconds(dissolveTimeStep);
         }
 
@@ -58,6 +60,8 @@ public class Projectile : MonoBehaviour
         if (other.gameObject.CompareTag("Gate") && isMoving)
         {
             StopAllCoroutines();
+            GetComponent<Renderer>().material = newMaterial;
+            Cannon.canShoot = true;
             m_Rigidbody.isKinematic = false;
             m_Rigidbody.AddForce(-direction);
             GetComponent<SphereCollider>().isTrigger = false;

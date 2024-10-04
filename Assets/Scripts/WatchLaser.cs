@@ -21,12 +21,13 @@ public class WatchLaser : MonoBehaviour
         lineRenderer.SetPosition(1, new Vector3(0,0,5) * 10f);
         if (Physics.Raycast(transform.position, transform.forward * 10, out hit))
         {
-            // if (hit.collider)
-            // {
-            // }
-            Debug.Log("Hit something which is: " + hit.transform.name);
+            // if the player pressed whatever button does within the functionality of the VR
+            //TODO: Write if condition here
+            // Invert the gravity
+            if (hit.collider.GetComponent<GravityInverter>() != null) {
+                hit.collider.GetComponent<GravityInverter>().InvertGravity();
+            }
         }
-        // else lineRenderer.SetPosition(1, transform.forward*1000);
     }
 
     void OnDrawGizmos () {

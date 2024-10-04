@@ -2,7 +2,7 @@ using UnityEngine;
 public class CustomGravityObject : MonoBehaviour
 {
     Rigidbody rigidBody;
-    [SerializeField] Vector3 customGravity;
+    public Vector3 customGravity;
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();

@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &21457077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -793,7 +793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &90802462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &150323055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1706,7 +1706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &164330257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1972,7 +1972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &186848347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2133,7 +2133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &204152577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2294,7 +2294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &209981265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2455,7 +2455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &251761855
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2833,7 +2833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &260043140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3100,7 +3100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &269650180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3261,7 +3261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &299334746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3726,7 +3726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &332792979
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3887,7 +3887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &342375807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4048,7 +4048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &369869218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4209,7 +4209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &381842377
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4370,7 +4370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &385280177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4531,7 +4531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &426050219
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4692,7 +4692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &463241256
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4853,7 +4853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &470983981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5120,7 +5120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &492783087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5281,7 +5281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &503119735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5442,7 +5442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &557644270
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5622,7 +5622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &572582837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5783,7 +5783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &573144114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6322,7 +6322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &705447766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6483,7 +6483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &734659381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6644,7 +6644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &798971807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6910,7 +6910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &822439383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7143,7 +7143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &865710011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7381,7 +7381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &889883941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7542,7 +7542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &908025044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7738,7 +7738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &916026087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8194,7 +8194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &918601310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8494,7 +8494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &938954854
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8655,7 +8655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &940976551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8816,7 +8816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &952961490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8977,7 +8977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &972228035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9138,7 +9138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1005476443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9299,7 +9299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1005611025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9460,7 +9460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1010638685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9700,7 +9700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1018764318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9861,7 +9861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1023879354
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10127,7 +10127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1031715178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10288,7 +10288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1060023550
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10449,7 +10449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1068127552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10610,7 +10610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1085588145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10771,7 +10771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1088427521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10932,7 +10932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1093713598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11530,7 +11530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1121156610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11691,7 +11691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1124067434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11957,7 +11957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1143392211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12118,7 +12118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1151453402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12279,7 +12279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1153284978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12517,7 +12517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1166641653
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12678,7 +12678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1169382847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12839,7 +12839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1171163752
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13000,7 +13000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1198103116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13161,7 +13161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1223734630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13322,7 +13322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1224227465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13483,7 +13483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1229951407
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13644,7 +13644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1240932689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15667,7 +15667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1266533738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15828,7 +15828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1320941627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16094,7 +16094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1407291953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16255,7 +16255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1408084638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16515,7 +16515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1446604163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16765,7 +16765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1478800121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16926,7 +16926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1483276928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17319,7 +17319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1537948190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17480,7 +17480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1538447298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17641,7 +17641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1542069255
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17802,7 +17802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1545411758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17963,7 +17963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1553286905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18124,7 +18124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1590439395
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18285,7 +18285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1606938175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18446,7 +18446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1663995516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18607,7 +18607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1670900668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19036,7 +19036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1754720433
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19303,7 +19303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1757230416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19464,7 +19464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1761493294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19625,7 +19625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1771388160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19786,7 +19786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1787794855
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19947,7 +19947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1790105953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20108,7 +20108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1794108186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20269,7 +20269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1796303658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20579,7 +20579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1861747167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20918,7 +20918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1914617648
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21079,7 +21079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1942227106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21240,7 +21240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1956842417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21401,7 +21401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &1966180458
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21752,7 +21752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &2009110461
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21913,7 +21913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &2038863046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22248,7 +22248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &2049848824
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22514,7 +22514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &2113172254
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22675,7 +22675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &2113358124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22836,7 +22836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &2114936501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22997,7 +22997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &2115577160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23158,7 +23158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &2122111302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23319,7 +23319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &2146079914
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23480,7 +23480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.3, z: 0}
+  customGravity: {x: 0, y: -0.5, z: 0}
 --- !u!65 &2146904945
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ public class IonizerHole : MonoBehaviour
         {
             asteroidCount--;
             Destroy(other.gameObject);
+            AudioManager.Instance.playSFX(AudioManager.Instance.ionizerSound);
             if (asteroidCount == 0)
             {
                 Placer.SetActive(true);

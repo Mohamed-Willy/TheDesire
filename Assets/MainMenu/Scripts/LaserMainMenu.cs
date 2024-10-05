@@ -30,7 +30,9 @@ public class LaserMainMenu : MonoBehaviour
                 if (hit.collider.GetComponent<CapsuleButton>() != null) {
                     if (hit.collider.GetComponent<CapsuleButton>().start == true) {
                         hit.collider.GetComponent<CapsuleButton>().StartLevel();
+                        AudioManager.Instance.playSFX(AudioManager.Instance.buttonClickMainMenu);
                     } else {
+                        AudioManager.Instance.playSFX(AudioManager.Instance.buttonClickMainMenu);
                         hit.collider.GetComponent<CapsuleButton>().ExitGame();
                     }
                 }

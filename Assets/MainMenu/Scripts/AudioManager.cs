@@ -3,8 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance;
+
     [Header("--------------------AudioSource----------------")]
-    [SerializeField] AudioSource soundSource;
+    [SerializeField] public AudioSource soundSource;
     [SerializeField] AudioSource SFXSource;
 
     [Header("---------------------AudioClip------------------")]
@@ -22,6 +24,10 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
         DontDestroyOnLoad(gameObject);
     }
 

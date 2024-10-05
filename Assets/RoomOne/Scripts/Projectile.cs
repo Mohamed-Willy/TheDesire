@@ -36,6 +36,8 @@ public class Projectile : MonoBehaviour
         vfx?.SetFloat("Duration", duration/1.25f);
         vfx?.Play();
 
+        AudioManager.Instance.playSFX(AudioManager.Instance.disintegrationSound);
+
         OnDissolveShapes?.Invoke(duration);
 
         yield return new WaitForSeconds(duration);

@@ -15,6 +15,8 @@ public class FinalClosingCamera : MonoBehaviour
             obj.SetActive(true);
         }
 
+        AudioManager.Instance.soundSource.clip = AudioManager.Instance.closingSceneSound;
+
         StartCoroutine(DisableAndEnable());
     }
     IEnumerator DisableAndEnable () {

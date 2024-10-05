@@ -9,6 +9,10 @@ TagManager:
   - RightHand
   - Gate
   - Audio
+  - LatchColider
+  - SenderTMP
+  - Character
+  - RH
   layers:
   - Default
   - TransparentFX

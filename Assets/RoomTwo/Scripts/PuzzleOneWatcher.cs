@@ -7,6 +7,7 @@ public class PuzzleOneWatcher : MonoBehaviour
     [SerializeField] GameObject theLights;
     [SerializeField] GameObject puzzleTwo;
     [SerializeField] int rightfacesCount = 0;
+    [SerializeField] int wrongFacesCount = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,8 +37,18 @@ public class PuzzleOneWatcher : MonoBehaviour
         CheckPuzzleCompleted();
     }
 
+    public void DecreaseWrongCount () {
+        wrongFacesCount --;
+        CheckPuzzleCompleted();
+    }
+
+    public void IncreaseWrongCount () {
+        wrongFacesCount ++;
+        CheckPuzzleCompleted();
+    }
+
     void CheckPuzzleCompleted () {
-        if (rightfacesCount >= 18) {
+        if (rightfacesCount >= 18 && wrongFacesCount < 1) {
             // End the fkin puzzle
             StartCoroutine (RemovePuzzle());
         }

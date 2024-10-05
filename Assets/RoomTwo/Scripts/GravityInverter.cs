@@ -13,12 +13,16 @@ public class GravityInverter : MonoBehaviour
     public void InvertGravity () {
         gravityController.customGravity = new Vector3(0, gravityController.customGravity.y * -1, 0);
 
-        if (!theRightTile)
-            return;
-
-        if (gravityController.customGravity.y > 0)
-            PuzzleOneWatcher.Instance.IncreaseRightCount();
-        else
-            PuzzleOneWatcher.Instance.DecreaseRightCount();
+        if (theRightTile) {
+            if (gravityController.customGravity.y > 0)
+                PuzzleOneWatcher.Instance.IncreaseRightCount();
+            else
+                PuzzleOneWatcher.Instance.DecreaseRightCount();
+        } else {
+            if (gravityController.customGravity.y > 0)
+                PuzzleOneWatcher.Instance.IncreaseWrongCount();
+            else
+                PuzzleOneWatcher.Instance.DecreaseWrongCount();
+        }
     }
 }

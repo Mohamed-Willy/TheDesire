@@ -7,6 +7,9 @@ public class ScaleManager : MonoBehaviour
 {
     public static ScaleManager Instance;
 
+    [SerializeField] GameObject theLights;
+    [SerializeField] GameObject doors;
+
     // Variables to store weights of both sides
     public float weightLeft = 0f;
     public float weightRight = 0f;
@@ -22,7 +25,11 @@ public class ScaleManager : MonoBehaviour
         if (Instance == null)
             Instance = this;
         else
-            Destroy(this.gameObject);
+            Destroy(gameObject);
+    }
+
+    void Start () {
+        UpdateScale();
     }
 
     void Update()
@@ -35,13 +42,9 @@ public class ScaleManager : MonoBehaviour
     public void ModifyWeight(bool isLeftHandle, float amount)
     {
         if (isLeftHandle)
-        {
             weightLeft = Mathf.Clamp(weightLeft + amount, minWeight, maxWeight); // Update and clamp the left weight
-        }
         else
-        {
             weightRight = Mathf.Clamp(weightRight + amount, minWeight, maxWeight); // Update and clamp the right weight
-        }
 
         UpdateScale();
     }
@@ -53,13 +56,7 @@ public class ScaleManager : MonoBehaviour
 
         if (weightDifference <= balanceTolerance)
         {
-            Debug.Log("Scale is Balanced!");
-            // Add behavior for when the scale is balanced (like showing visual feedback)
-        }
-        else
-        {
-            Debug.Log("Scale is Unbalanced");
-            // Add behavior for unbalanced state (like tilting the scale)
+            StartCoroutine(FinishPuzzle());
         }
 
         CheckBalance();
@@ -71,5 +68,14 @@ public class ScaleManager : MonoBehaviour
         // Rotate the scale based on the difference in weights
         float angle = (weightRight - weightLeft) * 10f; // You can adjust this multiplier
         transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
+
+    IEnumerator FinishPuzzle () {
+        theLights.SetActive(false);
+        yield return new WaitForSeconds(2f);
+        theLights.SetActive(true);
+        doors.GetComponent<Animator>().enabled = true;
+        //TODO:Add moving the player to the right position if possible
+        Destroy(this.gameObject);
     }
 }

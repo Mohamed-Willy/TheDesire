@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class IronSlatesPuzzelLogic : MonoBehaviour
@@ -8,18 +9,13 @@ public class IronSlatesPuzzelLogic : MonoBehaviour
     {
         if (other.gameObject.CompareTag("LatchColider"))
         {
-            Latch(other.gameObject);
+            isLatched = true;
+            Destroy(GetComponent<XRGrabInteractable>());
+            Destroy(GetComponent<Rigidbody>());
+            transform.SetPositionAndRotation(other.GetComponent<LatchColider>().positions[0], Quaternion.Euler(other.GetComponent<LatchColider>().rotation[0]));
+            other.GetComponent<LatchColider>().positions.RemoveAt(0);
+            other.GetComponent<LatchColider>().rotation.RemoveAt(0);
+            if (other.GetComponent<LatchColider>().positions.Count <= 0) SceneManager.LoadScene("IntroRoom");
         }
-    }
-    void Latch(GameObject other)
-    {
-        if (isLatched) return;
-        Destroy(other);
-        isLatched = true;
-        GetComponent<XRGrabInteractable>().enabled = false;
-        Destroy(GetComponent<Rigidbody>());
-        transform.SetPositionAndRotation(other.GetComponent<LatchColider>().positions[0], Quaternion.Euler(other.GetComponent<LatchColider>().rotation[0]));
-        other.GetComponent<LatchColider>().positions.RemoveAt(0);
-        other.GetComponent<LatchColider>().rotation.RemoveAt(0);
     }
 }

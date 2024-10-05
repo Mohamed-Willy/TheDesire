@@ -18,6 +18,8 @@ public class IronSlatesPuzzelLogic : MonoBehaviour
         isLatched = true;
         GetComponent<XRGrabInteractable>().enabled = false;
         Destroy(GetComponent<Rigidbody>());
-        transform.SetPositionAndRotation(other.GetComponent<LatchColider>().position, Quaternion.Euler(other.GetComponent<LatchColider>().rotation));
+        transform.SetPositionAndRotation(other.GetComponent<LatchColider>().positions[0], Quaternion.Euler(other.GetComponent<LatchColider>().rotation[0]));
+        other.GetComponent<LatchColider>().positions.RemoveAt(0);
+        other.GetComponent<LatchColider>().rotation.RemoveAt(0);
     }
 }

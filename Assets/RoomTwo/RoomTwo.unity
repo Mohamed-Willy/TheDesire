@@ -384,7 +384,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21457073}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -398,7 +398,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &21457077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -762,7 +762,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90802458}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -776,7 +776,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -793,7 +793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &90802462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1297,7 +1297,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150323051}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1311,7 +1311,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &150323055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1675,7 +1675,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164330253}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1689,7 +1689,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1706,7 +1706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &164330257
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1941,7 +1941,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186848343}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1955,7 +1955,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1972,7 +1972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &186848347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2102,7 +2102,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204152573}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2116,7 +2116,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -2133,7 +2133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &204152577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2263,7 +2263,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209981261}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2277,7 +2277,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -2294,7 +2294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &209981265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2424,7 +2424,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251761851}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2438,7 +2438,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -2455,7 +2455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &251761855
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2802,7 +2802,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 260043136}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -2816,7 +2816,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -2833,7 +2833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &260043140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3069,7 +3069,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269650176}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3083,7 +3083,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -3100,7 +3100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &269650180
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3230,7 +3230,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299334742}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3244,7 +3244,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -3261,7 +3261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &299334746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3695,7 +3695,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332792975}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3709,7 +3709,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -3726,7 +3726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &332792979
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3856,7 +3856,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 342375803}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -3870,7 +3870,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -3887,7 +3887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &342375807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4017,7 +4017,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369869214}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4031,7 +4031,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -4048,7 +4048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &369869218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4178,7 +4178,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 381842373}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4192,7 +4192,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -4209,7 +4209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &381842377
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4339,7 +4339,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385280173}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4353,7 +4353,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -4370,7 +4370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &385280177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4500,7 +4500,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426050215}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4514,7 +4514,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -4531,7 +4531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &426050219
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4661,7 +4661,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463241252}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4675,7 +4675,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -4692,7 +4692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &463241256
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4822,7 +4822,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470983977}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -4836,7 +4836,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -4853,7 +4853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &470983981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5089,7 +5089,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492783083}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5103,7 +5103,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -5120,7 +5120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &492783087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5250,7 +5250,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503119731}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5264,7 +5264,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -5281,7 +5281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &503119735
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5411,7 +5411,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557644266}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5425,7 +5425,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -5442,7 +5442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &557644270
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5591,7 +5591,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572582833}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5605,7 +5605,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -5622,7 +5622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &572582837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5752,7 +5752,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 573144110}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -5766,7 +5766,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -5783,7 +5783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &573144114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6291,7 +6291,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705447762}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -6305,7 +6305,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -6322,7 +6322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &705447766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6452,7 +6452,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734659377}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -6466,7 +6466,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -6483,7 +6483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &734659381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6613,7 +6613,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798971803}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -6627,7 +6627,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -6644,7 +6644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &798971807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6879,7 +6879,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822439379}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -6893,7 +6893,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -6910,7 +6910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &822439383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7044,7 +7044,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 841587346}
-  - component: {fileID: 841587347}
   m_Layer: 0
   m_Name: Puzzle 2
   m_TagString: Untagged
@@ -7061,32 +7060,13 @@ Transform:
   m_GameObject: {fileID: 841587345}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.29206944, z: 0}
+  m_LocalPosition: {x: 0, y: -0.247, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4439753839903965671}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &841587347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841587345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 388ba68b324daeb4ba98ec4aedf44223, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theLights: {fileID: 908602052}
-  doors: {fileID: 0}
-  weightLeft: 1
-  weightRight: 5
-  maxWeight: 10
-  minWeight: 0
-  balanceTolerance: 0.1
 --- !u!1 &865710007
 GameObject:
   m_ObjectHideFlags: 0
@@ -7132,7 +7112,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865710007}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -7146,7 +7126,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -7163,7 +7143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &865710011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7370,7 +7350,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 889883937}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -7384,7 +7364,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -7401,7 +7381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &889883941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7531,7 +7511,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908025040}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -7545,7 +7525,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -7562,7 +7542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &908025044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7727,7 +7707,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916026083}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -7741,7 +7721,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -7758,7 +7738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &916026087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8183,7 +8163,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918601306}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -8197,7 +8177,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -8214,7 +8194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &918601310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8483,7 +8463,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938954850}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -8497,7 +8477,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -8514,7 +8494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &938954854
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8644,7 +8624,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940976547}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -8658,7 +8638,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -8675,7 +8655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &940976551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8805,7 +8785,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952961486}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -8819,7 +8799,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -8836,7 +8816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &952961490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8966,7 +8946,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972228031}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -8980,7 +8960,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -8997,7 +8977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &972228035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9127,7 +9107,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005476439}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -9141,7 +9121,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -9158,7 +9138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1005476443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9288,7 +9268,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005611021}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -9302,7 +9282,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -9319,7 +9299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1005611025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9449,7 +9429,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010638681}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -9463,7 +9443,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -9480,7 +9460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1010638685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9689,7 +9669,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1018764314}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -9703,7 +9683,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -9720,7 +9700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1018764318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9850,7 +9830,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023879350}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -9864,7 +9844,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -9881,7 +9861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1023879354
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10116,7 +10096,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031715174}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -10130,7 +10110,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -10147,7 +10127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1031715178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10277,7 +10257,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060023546}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -10291,7 +10271,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -10308,7 +10288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1060023550
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10438,7 +10418,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068127548}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -10452,7 +10432,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -10469,7 +10449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1068127552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10599,7 +10579,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085588141}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -10613,7 +10593,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -10630,7 +10610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1085588145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10760,7 +10740,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088427517}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -10774,7 +10754,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -10791,7 +10771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1088427521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10921,7 +10901,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1093713594}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -10935,7 +10915,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -10952,7 +10932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1093713598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11519,7 +11499,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121156606}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -11533,7 +11513,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -11550,7 +11530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1121156610
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11680,7 +11660,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124067430}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -11694,7 +11674,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -11711,7 +11691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1124067434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11946,7 +11926,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143392207}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -11960,7 +11940,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -11977,7 +11957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1143392211
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12107,7 +12087,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151453398}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -12121,7 +12101,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -12138,7 +12118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1151453402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12268,7 +12248,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153284974}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -12282,7 +12262,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -12299,7 +12279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1153284978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12412,7 +12392,7 @@ Transform:
   m_GameObject: {fileID: 1162964171}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.065, y: 3.093, z: 11.74}
+  m_LocalPosition: {x: -0.065, y: 3.093, z: 12.15}
   m_LocalScale: {x: 3.8107, y: 3.8107, z: 1.031366}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12506,7 +12486,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166641649}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -12520,7 +12500,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -12537,7 +12517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1166641653
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12667,7 +12647,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169382843}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -12681,7 +12661,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -12698,7 +12678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1169382847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12828,7 +12808,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171163748}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -12842,7 +12822,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -12859,7 +12839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1171163752
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12989,7 +12969,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198103112}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -13003,7 +12983,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -13020,7 +13000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1198103116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13150,7 +13130,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223734626}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -13164,7 +13144,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -13181,7 +13161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1223734630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13311,7 +13291,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224227461}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -13325,7 +13305,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -13342,7 +13322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1224227465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13472,7 +13452,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229951403}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -13486,7 +13466,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -13503,7 +13483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1229951407
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13633,7 +13613,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240932685}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -13647,7 +13627,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -13664,7 +13644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1240932689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15656,7 +15636,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266533734}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -15670,7 +15650,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -15687,7 +15667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1266533738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15817,7 +15797,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320941623}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -15831,7 +15811,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -15848,7 +15828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1320941627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16083,7 +16063,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407291949}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -16097,7 +16077,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -16114,7 +16094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1407291953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16244,7 +16224,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408084634}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -16258,7 +16238,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -16275,7 +16255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1408084638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16504,7 +16484,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446604159}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -16518,7 +16498,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -16535,7 +16515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1446604163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16754,7 +16734,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478800117}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -16768,7 +16748,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -16785,7 +16765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1478800121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16915,7 +16895,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483276924}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -16929,7 +16909,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -16946,7 +16926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1483276928
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17166,7 +17146,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 25, y: 55, z: 63.300053}
-  m_LocalScale: {x: -240.4, y: -83.38875, z: -34.989017}
+  m_LocalScale: {x: 240, y: 83, z: 34}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 824786903}
@@ -17308,7 +17288,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537948186}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -17322,7 +17302,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -17339,7 +17319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1537948190
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17469,7 +17449,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538447294}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -17483,7 +17463,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -17500,7 +17480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1538447298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17630,7 +17610,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542069251}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -17644,7 +17624,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -17661,7 +17641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1542069255
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17791,7 +17771,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545411754}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -17805,7 +17785,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -17822,7 +17802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1545411758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17952,7 +17932,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553286901}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -17966,7 +17946,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -17983,7 +17963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1553286905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18113,7 +18093,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590439391}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -18127,7 +18107,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -18144,7 +18124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1590439395
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18274,7 +18254,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606938171}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -18288,7 +18268,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -18305,7 +18285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1606938175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18435,7 +18415,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1663995512}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -18449,7 +18429,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -18466,7 +18446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1663995516
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18596,7 +18576,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670900664}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -18610,7 +18590,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -18627,7 +18607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1670900668
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18723,7 +18703,6 @@ GameObject:
   - component: {fileID: 1681624417}
   - component: {fileID: 1681624420}
   - component: {fileID: 1681624419}
-  - component: {fileID: 1681624418}
   m_Layer: 0
   m_Name: Door Border (1)
   m_TagString: Untagged
@@ -18748,27 +18727,6 @@ Transform:
   - {fileID: 1484778387}
   m_Father: {fileID: 824786903}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1681624418
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1681624416}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 662ed8da23338dc4fafaa4f02e52bc3c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!23 &1681624419
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18849,7 +18807,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 25, y: 55, z: -59}
-  m_LocalScale: {x: -240.4, y: -83.38875, z: -34.989017}
+  m_LocalScale: {x: 240, y: 83, z: 34}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 824786903}
@@ -19047,7 +19005,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754720429}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -19061,7 +19019,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -19078,7 +19036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1754720433
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19314,7 +19272,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757230412}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -19328,7 +19286,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -19345,7 +19303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1757230416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19475,7 +19433,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761493290}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -19489,7 +19447,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -19506,7 +19464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1761493294
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19636,7 +19594,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771388156}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -19650,7 +19608,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -19667,7 +19625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1771388160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19797,7 +19755,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787794851}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -19811,7 +19769,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -19828,7 +19786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1787794855
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19958,7 +19916,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790105949}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -19972,7 +19930,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -19989,7 +19947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1790105953
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20119,7 +20077,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794108182}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -20133,7 +20091,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -20150,7 +20108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1794108186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20280,7 +20238,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796303654}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -20294,7 +20252,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -20311,7 +20269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1796303658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20543,7 +20501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theLights: {fileID: 908602052}
   puzzleTwo: {fileID: 841587345}
-  rightfacesCount: 18
+  rightfacesCount: 0
   wrongFacesCount: 0
 --- !u!1 &1861747163
 GameObject:
@@ -20590,7 +20548,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861747163}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -20604,7 +20562,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -20621,7 +20579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1861747167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20929,7 +20887,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914617644}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -20943,7 +20901,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -20960,7 +20918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1914617648
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21090,7 +21048,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942227102}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -21104,7 +21062,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -21121,7 +21079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1942227106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21251,7 +21209,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1956842413}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -21265,7 +21223,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -21282,7 +21240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1956842417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21412,7 +21370,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966180454}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -21426,7 +21384,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -21443,7 +21401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &1966180458
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21763,7 +21721,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009110457}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -21777,7 +21735,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -21794,7 +21752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &2009110461
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21924,7 +21882,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038863042}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -21938,7 +21896,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -21955,7 +21913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &2038863046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22259,7 +22217,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049848820}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -22273,7 +22231,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -22290,7 +22248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &2049848824
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22525,7 +22483,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113172250}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -22539,7 +22497,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -22556,7 +22514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &2113172254
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22686,7 +22644,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113358120}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -22700,7 +22658,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -22717,7 +22675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &2113358124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22847,7 +22805,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114936497}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -22861,7 +22819,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -22878,7 +22836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &2114936501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23008,7 +22966,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115577156}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -23022,7 +22980,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -23039,7 +22997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &2115577160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23169,7 +23127,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122111298}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -23183,7 +23141,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -23200,7 +23158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &2122111302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23330,7 +23288,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146079910}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -23344,7 +23302,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -23361,7 +23319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &2146079914
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23491,7 +23449,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146904941}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 3
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -23505,7 +23463,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -23522,7 +23480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724332ebad7b3db44b5cbb56764a0e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customGravity: {x: 0, y: -0.1, z: 0}
+  customGravity: {x: 0, y: -0.3, z: 0}
 --- !u!65 &2146904945
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24394,6 +24352,7 @@ GameObject:
   - component: {fileID: 4349780483315331403}
   - component: {fileID: 6083827760179521441}
   - component: {fileID: 2122959444585454242}
+  - component: {fileID: 6083827760179521442}
   m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
@@ -24507,6 +24466,7 @@ GameObject:
   - component: {fileID: 4285045274931995438}
   - component: {fileID: 2528198401782583289}
   - component: {fileID: 4439725857780545808}
+  - component: {fileID: 4439725857780545809}
   m_Layer: 0
   m_Name: Entering Door Border
   m_TagString: Untagged
@@ -24535,6 +24495,28 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!64 &4439725857780545809
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4439725857780545807}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4212312171701301350, guid: 53b4e06d2c79aca47b45b1f7e9154916, type: 3}
 --- !u!4 &4439753839903965671
 Transform:
   m_ObjectHideFlags: 0
@@ -24950,6 +24932,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4013675199501991787}
   m_Mesh: {fileID: -8360256272083055277, guid: 9cb050b53fb689b4e818373036c4ca5d, type: 3}
+--- !u!114 &6083827760179521442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4013675199501991787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388ba68b324daeb4ba98ec4aedf44223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theLights: {fileID: 908602052}
+  doors: {fileID: 6480223754393688664}
+  puzzle: {fileID: 841587345}
+  weightLeft: 1
+  weightRight: 3
+  maxWeight: 10
+  minWeight: 0
+  balanceTolerance: 0.1
 --- !u!33 &6187067244084724662
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -25020,6 +25022,7 @@ GameObject:
   - component: {fileID: 6847235598095079213}
   - component: {fileID: 5167000970250847011}
   - component: {fileID: 6847235598095079214}
+  - component: {fileID: 6847235598095079215}
   m_Layer: 0
   m_Name: Door Border
   m_TagString: Untagged
@@ -25112,6 +25115,28 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!64 &6847235598095079215
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480223754393688664}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 678081086914866713, guid: 53b4e06d2c79aca47b45b1f7e9154916, type: 3}
 --- !u!33 &6968056107865614967
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -25289,6 +25314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLeftHandle: 0
   weightChangeAmount: 1
+  changedAlready: 0
 --- !u!65 &7564593716966241503
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25448,6 +25474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLeftHandle: 1
   weightChangeAmount: 1
+  changedAlready: 0
 --- !u!65 &8270028905933185807
 BoxCollider:
   m_ObjectHideFlags: 0

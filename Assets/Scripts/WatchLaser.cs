@@ -6,11 +6,11 @@ using UnityEngine;
 public class WatchLaser : MonoBehaviour
 {
     LineRenderer lineRenderer;
-    Vector3 laserStartPosition;
+    [SerializeField] AnimateHandOnInput rightHand;
+    [SerializeField] AnimateHandOnInput leftHand;
     void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
-        laserStartPosition = lineRenderer.GetPosition(0);
     }
 
     // Update is called once per frame
@@ -24,8 +24,16 @@ public class WatchLaser : MonoBehaviour
             // if the player pressed whatever button does within the functionality of the VR
             //TODO: Write if condition here
             // Invert the gravity
-            if (hit.collider.GetComponent<GravityInverter>() != null) {
-                hit.collider.GetComponent<GravityInverter>().InvertGravity();
+            if (rightHand.triggerValue > 0) {
+                // Puzzle 1 interaction
+                if (hit.collider.GetComponent<GravityInverter>() != null) {
+                    hit.collider.GetComponent<GravityInverter>().InvertGravity();
+                }
+
+                // Puzzle 2 interaction
+            }
+            if (leftHand.triggerValue > 0) {
+                // Puzzle 2 Decrease Value
             }
         }
     }

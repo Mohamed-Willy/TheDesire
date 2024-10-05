@@ -17,4 +17,9 @@ public class ScaleHandleController : MonoBehaviour
     //     float weightChange = isDecreasing ? -weightChangeAmount : weightChangeAmount;
     //     ScaleManager.Instance.ModifyWeight(isLeftHandle, weightChange);
     // }
+
+    public void OnControllerClicked (bool increase) {
+        ScaleManager.Instance.ModifyWeight(isLeftHandle, increase == true ? weightChangeAmount : -weightChangeAmount);
+        ScaleManager.Instance.ModifyWeight(!isLeftHandle, increase == false ? weightChangeAmount*2 : -weightChangeAmount*2);
+    }
 }

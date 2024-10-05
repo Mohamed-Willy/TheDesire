@@ -1,7 +1,8 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LatchColider : MonoBehaviour
 {
-    public Vector3 position;
-    public Vector3 rotation;
+    public List<Vector3> positions;
+    public List<Vector3> rotation;
 }

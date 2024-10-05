@@ -18,6 +18,8 @@ public class StartingDoor : MonoBehaviour
                 anim.SetTrigger("OpenTheFkinDoor");
             } else {
                 anim.enabled = true;
+                anim.Rebind();
+                anim.Play(0, -1, 0);
             }
         }
     }

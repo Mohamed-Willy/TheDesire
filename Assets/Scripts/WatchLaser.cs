@@ -33,8 +33,6 @@ public class WatchLaser : MonoBehaviour
                 if (hit.collider.GetComponent<ScaleHandleController>() != null) {
                     hit.collider.GetComponent<ScaleHandleController>().OnControllerClicked(increase:true);
                 }
-
-                leftHand.triggerValue = 0;
             }
         }
     }

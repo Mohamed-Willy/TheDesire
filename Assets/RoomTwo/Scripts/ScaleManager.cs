@@ -9,6 +9,7 @@ public class ScaleManager : MonoBehaviour
 
     [SerializeField] GameObject theLights;
     [SerializeField] GameObject doors;
+    [SerializeField] GameObject puzzle;
 
     // Variables to store weights of both sides
     public float weightLeft = 0f;
@@ -59,7 +60,7 @@ public class ScaleManager : MonoBehaviour
             StartCoroutine(FinishPuzzle());
         }
 
-        CheckBalance();
+        //CheckBalance();
     }
 
     // Update the visual representation of the scale
@@ -67,15 +68,20 @@ public class ScaleManager : MonoBehaviour
     {
         // Rotate the scale based on the difference in weights
         float angle = (weightRight - weightLeft) * 10f; // You can adjust this multiplier
-        transform.rotation = Quaternion.Euler(0, 0, angle);
+        transform.rotation = Quaternion.Euler(0, 0, angle+180);
+        CheckBalance();
     }
 
     IEnumerator FinishPuzzle () {
+        yield return new WaitForSeconds(2f);
         theLights.SetActive(false);
         yield return new WaitForSeconds(2f);
         theLights.SetActive(true);
         doors.GetComponent<Animator>().enabled = true;
+        doors.GetComponent<Animator>().SetTrigger("OpenTheDoor");
+        //doors.GetComponent<Animator>().Rebind();
+        //doors.GetComponent<Animator>().Play(0, -1, 0);
         //TODO:Add moving the player to the right position if possible
-        Destroy(this.gameObject);
+        Destroy(puzzle, 0.5f);
     }
 }

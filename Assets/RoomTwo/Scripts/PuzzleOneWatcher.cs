@@ -55,11 +55,12 @@ public class PuzzleOneWatcher : MonoBehaviour
     }
 
     IEnumerator RemovePuzzle () {
+        yield return new WaitForSeconds(1.0f);
         theLights.SetActive(false);
         yield return new WaitForSeconds(2f);
-        theLights.SetActive(true);
         puzzleTwo.SetActive(true);
+        theLights.SetActive(true);
         //TODO:Add moving the player to the right position if possible
-        Destroy(this.gameObject);
+        Destroy(this.gameObject, 0.2f);
     }
 }

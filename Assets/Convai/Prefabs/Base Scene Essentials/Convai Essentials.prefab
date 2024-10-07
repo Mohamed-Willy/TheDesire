@@ -446,12 +446,12 @@ PrefabInstance:
     - target: {fileID: 5231986068629599735, guid: d8fa7782ef3655b4b89ceecf9beef9d0,
         type: 3}
       propertyPath: characters.Array.size
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5231986068629599735, guid: d8fa7782ef3655b4b89ceecf9beef9d0,
         type: 3}
       propertyPath: characters.Array.data[0].characterName
-      value: Amelia
+      value: Steve
       objectReference: {fileID: 0}
     - target: {fileID: 5231986068629599735, guid: d8fa7782ef3655b4b89ceecf9beef9d0,
         type: 3}
@@ -497,6 +497,16 @@ PrefabInstance:
         type: 3}
       propertyPath: characters.Array.data[4].characterGameObject
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231986068629599735, guid: d8fa7782ef3655b4b89ceecf9beef9d0,
+        type: 3}
+      propertyPath: characters.Array.data[0].characterTextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5231986068629599735, guid: d8fa7782ef3655b4b89ceecf9beef9d0,
+        type: 3}
+      propertyPath: characters.Array.data[0].characterTextColor.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
